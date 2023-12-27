@@ -1,0 +1,42 @@
+.authPage{
+    display: flex;
+    justify-content: center;
+    .authBox{
+        h2{
+            text-align: center;
+        }
+        display: flex;
+        flex-direction: column;
+        form{
+            display: flex;
+            flex-direction: column;
+            row-gap: 10px;
+            .info-field{
+                display: flex;
+                column-gap: 10px;
+                align-items: center;
+                label{
+                    display: inline-block;
+                    width: 80px;
+                }
+                input{
+                    outline: none;
+                    padding: 5px;
+                }
+            }
+            button{
+                padding: 5px;
+                border-radius: 5px;
+                border: none;
+                background-color: bisque;
+                cursor: pointer;
+                &:hover{
+                    color: red;
+                }
+            }
+        }
+    }
+    .hide{
+        display: none;
+    }
+}
